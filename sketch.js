@@ -113,7 +113,7 @@ function draw() {
   ground2.display();
   ground3.display();
 
-  if(frameCount%60 === 0){
+  if(frameCount%10 === 0){
     Particles.push(new Particle(random(width/2 - 10,width/2 + 10),10,10))
   }
 
