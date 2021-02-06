@@ -8,8 +8,8 @@ class Particle{
 
       }
 
-      this.body = Bodies.circle(x,y,5,options)
-      this.radius = 5;
+      this.body = Bodies.circle(x,y,4,options)
+      this.radius = 4;
       this.color = color(random(0,255),random(0,255),random(0,255));
       World.add(world,this.body);
 
@@ -22,7 +22,7 @@ class Particle{
       rotate(this.body.angle);
       noStroke();
       fill(this.color);
-      circle(this.body.position.x - 200,this.body.position.y - 200,10);
+      circle(this.body.position.x,this.body.position.y,10);
       pop();
 
    }

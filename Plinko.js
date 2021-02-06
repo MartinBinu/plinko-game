@@ -19,7 +19,8 @@ class Plinko{
 
       push();
       fill("white");
-      circle(this.body.position.x,this.body.position.y + 40,20);
+      ellipseMode(RADIUS);
+      ellipse(this.body.position.x,this.body.position.y,this.radius,this.radius);
       pop();
 
    }

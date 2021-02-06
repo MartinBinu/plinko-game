@@ -25,35 +25,35 @@ function setup() {
   }
 
   for(var j = 20;j <= width;j = j + 40 ){
-    Plinkos.push(new Plinko(j,0))
+    Plinkos.push(new Plinko(j,40))
   }
 
   for(var a = 40;a <= width;a = a + 40 ){
-    Plinkos.push(new Plinko(a,40))
+    Plinkos.push(new Plinko(a,80))
   }
 
   for(var b = 20;b <= width;b = b + 40 ){
-    Plinkos.push(new Plinko(b,80))
+    Plinkos.push(new Plinko(b,120))
   }
 
   for(var c = 40;c <= width;c = c + 40 ){
-    Plinkos.push(new Plinko(c,120))
+    Plinkos.push(new Plinko(c,160))
   }
 
   for(var d = 20;d <= width;d = d + 40 ){
-    Plinkos.push(new Plinko(d,160))
+    Plinkos.push(new Plinko(d,200))
   }
 
   for(var e = 40;e <= width;e = e + 40 ){
-    Plinkos.push(new Plinko(e,200))
+    Plinkos.push(new Plinko(e,240))
   }
 
   for(var f = 20;f <= width;f = f + 40 ){
-    Plinkos.push(new Plinko(f,240))
+    Plinkos.push(new Plinko(f,280))
   }
 
   for(var g = 40;g <= width;g = g + 40 ){
-    Plinkos.push(new Plinko(g,280))
+    Plinkos.push(new Plinko(g,320))
   }
 
   var render = Render.create({ 
@@ -79,33 +79,33 @@ function draw() {
   Plinkos[j].display();
   }
 
-  for(var a = 0;a < Plinkos.length;a = a + 1 ){
-  Plinkos[a].display();
-  }
+  //for(var a = 0;a < Plinkos.length;a = a + 1 ){
+  //Plinkos[a].display();
+  //}
 
-  for(var b = 0;b < Plinkos.length;b = b + 1 ){
-  Plinkos[b].display();
-  }
+  //for(var b = 0;b < Plinkos.length;b = b + 1 ){
+  //Plinkos[b].display();
+  //}
     
-  for(var c = 0;c < Plinkos.length;c = c + 1 ){
-  Plinkos[c].display();
-  }
+  //for(var c = 0;c < Plinkos.length;c = c + 1 ){
+  //Plinkos[c].display();
+  //}
 
-  for(var d = 0;d < Plinkos.length;d = d + 1 ){
-  Plinkos[d].display();
-  }
+  //for(var d = 0;d < Plinkos.length;d = d + 1 ){
+  //Plinkos[d].display();
+  //}
   
-  for(var e = 0;e < Plinkos.length;e = e + 1 ){
-  Plinkos[e].display();
-  }
+  //for(var e = 0;e < Plinkos.length;e = e + 1 ){
+  //Plinkos[e].display();
+  //}
   
-  for(var f = 0;f < Plinkos.length;f = f + 1 ){
-  Plinkos[f].display();
-  }
+  //for(var f = 0;f < Plinkos.length;f = f + 1 ){
+  //Plinkos[f].display();
+  //}
       
-  for(var g = 0;g < Plinkos.length;g = g + 1 ){
-  Plinkos[g].display();
-  }
+  //for(var g = 0;g < Plinkos.length;g = g + 1 ){
+  //Plinkos[g].display();
+  //}
 
   division1.display();
 
